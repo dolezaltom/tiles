@@ -1,0 +1,38 @@
+{
+    "title": "Get Inspired",
+    "subtitle": "Extra text",
+    "visible": "10",
+    "display": "1",
+    "loadall": true,
+    "tiles": [{
+        "img": "/img/two.png",
+        "text": "Print Templates",
+        "link": "https://www.seznam.cz/",
+        "target": "self"
+    }, {
+        "img": "/img/one.png",
+        "text": "Styles",
+        "link": "https://www.seznam.cz/",
+        "target": "self"
+    }, {
+        "img": "/img/three.png",
+        "text": "Colors",
+        "link": "https://www.seznam.cz/",
+        "target": "blank"
+    }, {
+        "img": "/img/four.png",
+        "text": "Photos",
+        "link": "https://www.seznam.cz/",
+        "target": "self"
+    }, {
+        "img": "/img/five.png",
+        "text": "Videos",
+        "link": "https://www.seznam.cz/",
+        "target": "blank"
+    }, {
+        "img": "/img/six.png",
+        "text": "Shop",
+        "link": "https://www.seznam.cz/",
+        "target": "self"
+    }]
+}
