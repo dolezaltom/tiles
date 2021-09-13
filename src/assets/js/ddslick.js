@@ -64,7 +64,8 @@
                 var n = p.find(".dd-select"),
                     u = p.find(".dd-options");
                 u.css({
-                    width: l.width
+                    width: l.width,
+                    display: "none"
                 });
                 n.css({
                     width: l.width,
