@@ -296,8 +296,8 @@ input[type="color"]:focus,
 
                     .text {
                         border-bottom: 1px solid #f1f4f8;
-                        
-                        &.border-none{
+
+                        &.border-none {
                             border: none !important;
                         }
 
@@ -410,9 +410,13 @@ input[type="color"]:focus,
                             tbody {
                                 padding: 0 0.3rem 0.3rem 0.3rem;
 
-                                tr:last-child {
-                                    td {
-                                        border: 0px;
+                                tr {
+                                    background-color: $white;
+
+                                    &:last-child {
+                                        td {
+                                            border: 0px;
+                                        }
                                     }
                                 }
                             }
