@@ -93,10 +93,10 @@ function loadSettings(time) {
                 //console.log(i);
                 if ((data.loadall == false) || (i <= data.visible - 1)) {
                     if (data.display == 2) {
-                        if (counter == 4) {
-                            counter = 0
+                        if (counter == 6) {
+                            counter = 0;
                         }
-                        if (counter == 0 || counter == 1) {
+                        if (counter == 0 || counter == 1 || counter == 4 || counter == 5) {
                             tileSet = "col-12 col-sm-6 col-md-3";
                             counter = counter + 1;
                         } else if (counter == 2 || counter == 3) {
